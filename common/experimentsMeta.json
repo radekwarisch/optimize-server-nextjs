@@ -1,0 +1,11 @@
+{
+  "experiments": [
+    {
+      "id": "y319tEm-T7-ETyUZGHZZ4w",
+      "variants": {
+        "0": 0.8,
+        "1": 0.2
+      }
+    }
+  ]
+}
