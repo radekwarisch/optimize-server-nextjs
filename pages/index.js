@@ -16,7 +16,7 @@ export function getServerSideProps({ req: { cookies } }) {
 
 export default function Home({ experiments }) {
   useEffect(() => {
-    if (window && window.gtag) {
+    if (experiments && window && window.gtag) {
       experiments.map(({ id, variant }) => {
         window.gtag("set", { experiments: [{ id, variant }] });
         window.gtag("config", "UA-129018078-2");
