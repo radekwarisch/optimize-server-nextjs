@@ -35,7 +35,7 @@ export default function Home({ experiments }) {
         }}
       />
 
-      <main className={styles.main}>Homepage</main>
+      <main className={styles.main}>Exp variant 1 for experiment</main>
     </div>
   );
 }

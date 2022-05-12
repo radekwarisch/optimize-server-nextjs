@@ -7,13 +7,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "js-cookie": "^3.0.1",
     "next": "12.1.4",
+    "ramda": "^0.28.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "string-hash": "^1.1.3"
   },
   "devDependencies": {
+    "@types/node": "^17.0.32",
+    "@types/react": "^18.0.9",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "typescript": "^4.6.4"
   }
 }
