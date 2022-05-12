@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
+import { useEffect } from "react";
 import { unwrapCookies } from "../common/unwrapCookies";
 import styles from "../styles/Home.module.css";
 
@@ -14,7 +15,9 @@ export function getServerSideProps({ req: { cookies } }) {
 }
 
 export default function Home({ experiments }) {
-  console.log("exp", experiments);
+  useEffect(() => {
+    console.log("exp", experiments);
+  }, [experiments]);
   return (
     <div className={styles.container}>
       <Head>
