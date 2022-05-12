@@ -14,6 +14,7 @@ export function getServerSideProps({ req: { cookies } }) {
 }
 
 export default function Home({ experiments }) {
+  console.log("exp", experiments);
   return (
     <div className={styles.container}>
       <Head>
