@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
+import { useEffect } from "react";
 import { unwrapCookies } from "../common/unwrapCookies";
 import styles from "../styles/Home.module.css";
 
